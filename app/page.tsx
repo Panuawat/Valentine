@@ -47,8 +47,8 @@ export default function Home() {
       </div>
       <div>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-yellow-300 drop-shadow-lg">
-          Happy Valentine's & Birthday!{" "}
-          <span className="">
+          Happy Valentine and Birthday!
+          <span>
             <span className=" inline-block animate-bounce">💖</span>🎂{" "}
           </span>
         </h1>
@@ -148,7 +148,7 @@ export default function Home() {
 
       <div>
         <h1 className="text-4xl font-bold text-center text-red-500">
-          Happy Valentine's & Birthday!
+          Happy Valentine and Birthday!
         </h1>
         <LoveQuestion />
       </div>
