@@ -44,16 +44,16 @@ export default function Home() {
             animate={{ x: [0, 10, 0] }} // เลื่อนจากตำแหน่งเริ่มต้นไป 10px แล้วกลับมา
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
           >
-            <Image
-              src="/arrow-right.png"
-              alt="arrow-right"
-              width={30}
-              height={30}
-            />
+            <Image 
+    src="/arrow-right.png" 
+    alt="&apos;arrow-right"  // เปลี่ยน ' เป็น &apos;
+    width={30} 
+    height={30}
+  />
           </motion.div>
           <span className="ml-2">
-            <MusicPlayer />
-          </span>
+    <MusicPlayer />
+  </span>
         </p>
       </div>
       <div>
