@@ -40,17 +40,6 @@ export default function Home() {
     <main className=" flex flex-col items-center justify-center max-w-full min-h-screen bg-gradient-to-b from-pink-500 to-red-500 text-center relative px-4 py-10">
       <div className=" fixed bottom-0 right-0 p-4 z-20">
         <p className="flex items-center">
-          <motion.div
-            animate={{ x: [0, 10, 0] }} // เลื่อนจากตำแหน่งเริ่มต้นไป 10px แล้วกลับมา
-            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-          >
-            <Image
-              src="/arrow-right.png"
-              alt="'arrow-right" // เปลี่ยน ' เป็น &apos;
-              width={30}
-              height={30}
-            />
-          </motion.div>
           <span className="ml-2">
             <MusicPlayer />
           </span>
